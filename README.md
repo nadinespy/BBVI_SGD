@@ -1,5 +1,7 @@
 # The dynamics of integrated information in variational inference
 
+<img src="https://github.com/nadinespy/BBVI_SGD/blob/main/new_presentation_buckleyLab19022021-08.png?raw=true" alt="Bayes and Perception" width="600 px" />
+
 ### The purpose of this repository 
 This repository showcases some plots including the plotting code from a project on integrated information in variational inference. The codebase is not complete, i.e., using this repository, results can not be reproduced, and the readme and all other material shown here are not optimized for understandability. Its main purpose is merely to **showcase several plots**, **including the plotting code**, from this project. The repository may be improved in the future in terms of understandability and reproducibility.
 
@@ -8,13 +10,9 @@ Many problems in different domains can be cast as the approximation of complicat
 
 *Integrated information* (normally symbolized by φ) denotes the idea that a system of interconnected elements, considered in as a “whole”, can encode information that goes beyond the information encoded by the sum of individual “parts” (Barrett and Seth, 2011). This idea has been operationalized in mathematically different ways (Tegmark, 2016), and explored in different scientific contexts - particularly so in consciousness science, where an entire theoretical framework called Integrated Information Theory (IIT) has been developed (Oizumi et al., 2014), pursuing the core hypothesis that consciousness arises as a result of high information integration. Both VI and integrated information have been influential and explored considerably – albeit separately from each other – in neuroscience. Thus, a link between the two so far is missing, begging the question of whether VI as an inference method and φ as a measure of dependency between a system’s parts are related – i.e., will systems performing optimal Bayesian inference display integrated information? Here, we used an integrated information measure for autoregressive time-series models proposed by Adam Barrett and Anil Seth (2011) in *black-box variational inference* (BBVI) with *stochastic gradient descent* (SGD) as established by Ranganath, Gerrish, and Blei (2016).    
 
-A detailed overview in terms of Marr's three levels can be seen in the following graphic.
+A detailed overview in terms of Marr's three analyses levels (computational goal, algorithm, implementation) of this set-up can be seen in [this graphic].
 
-<iframe src="https://docs.google.com/viewer?url=https://github.com/nadinespy/BBVI_SGD/raw/main/Marr_levels_applied.pdf&embedded=true" width="800" height="600" frameborder="0"></iframe>
-
-
-[Link to PDF](https://github.com/nadinespy/BBVI_SGD/raw/main/Marr_levels_applied.pdf)
-
+<img src="https://github.com/nadinespy/BBVI_SGD/blob/main/Marr_levels_applied-1.png?raw=true" alt="2D plot"/>
 
 ## Black box variational inference with stochastic gradient descent in a 2D example
 
@@ -61,6 +59,7 @@ Oizumi, M., Albantakis, L., and Tononi, G. (2014). From the phenomenology to the
 
 Ranganath, R., Gerrish, S., & Blei, D. M. (2013). Black box variational inference. arXiv preprint arXiv:1401.0118.
 
-<img src="https://github.com/nadinespy/BBVI_SGD/blob/main/bayes.jpg?raw=true" alt="Bayes and consciousness" width="600 px" />
+[Link to PDF](https://github.com/nadinespy/BBVI_SGD/raw/main/Marr_levels_applied.pdf)
 
-<img src="https://github.com/nadinespy/BBVI_SGD/blob/main/variation_inf.gif?raw=true" alt="Variational Inference"    width="400 px" />
+
+<iframe src="https://docs.google.com/viewer?url=https://github.com/nadinespy/BBVI_SGD/raw/main/Marr_levels_applied.pdf&embedded=true" width="800" height="600" frameborder="0"></iframe>
