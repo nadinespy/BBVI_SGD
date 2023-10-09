@@ -1,6 +1,6 @@
 # The dynamics of integrated information in variational inference
 
-<img src="https://github.com/nadinespy/BBVI_SGD/blob/main/new_presentation_buckleyLab19022021-08.png?raw=true" alt="Bayes and Perception" width="600 px" />
+<img src="https://github.com/nadinespy/BBVI_SGD/blob/main/bayes_theorem.png?raw=true" alt="Bayes and Perception" width="600 px" />
 
 ### The purpose of this repository 
 This repository showcases some plots including the plotting code from a project on integrated information in variational inference. The codebase is not complete, i.e., using this repository, results can not be reproduced, and the readme and all other material shown here are not optimized for understandability. Its main purpose is merely to **showcase several plots**, **including the plotting code**, from this project. The repository may be improved in the future in terms of understandability and reproducibility.
@@ -12,7 +12,7 @@ Many problems in different domains can be cast as the approximation of complicat
 
 A detailed overview in terms of Marr's three analyses levels (computational goal, algorithm, implementation) of this set-up can be seen in [this graphic].
 
-<img src="https://github.com/nadinespy/BBVI_SGD/blob/main/Marr_levels_applied-1.png?raw=true" alt="2D plot"/>
+<img src="https://github.com/nadinespy/BBVI_SGD/blob/main/marr_levels_applied.png?raw=true" alt="2D plot"/>
 
 ## Black box variational inference with stochastic gradient descent in a 2D example
 
@@ -20,11 +20,11 @@ BBVI can be demonstrated using the following visualization: A simpler model (the
 
 We use a callback function (in [BBVI_SGD_PHI.py](https://github.com/nadinespy/BBVI_SGD/blob/main/BBVI_SGD_PHI.py)) to create Matplotlib figures of the true and approximative distribution in real-time.
 
-<img src="https://github.com/nadinespy/BBVI_SGD/blob/main/variation_inf.gif?raw=true" alt="Variational Inference" width="45%" />
+<img src="https://github.com/nadinespy/BBVI_SGD/blob/main/2d_variational_inf.gif?raw=true" alt="Variational Inference" width="45%" />
 
 The following figure shows the same BBVI process in single plots where approximative and true posterior distribution are shown for different iterations.
 
-<img src="https://github.com/nadinespy/BBVI_SGD/blob/main/2D_variational_target_distr.png?raw=true" alt="2D plot"/>
+<img src="https://github.com/nadinespy/BBVI_SGD/blob/main/2D_variational_inf.png?raw=true" alt="2D plot"/>
 
 ## Integrated information in BBVI with SGD in a 3D example
 
@@ -32,7 +32,7 @@ One example result of the dynamics of information integration is shown below whe
 
 In the lower plot, we see the trajectories of all three parameters (denoted as "MAPs" - maximum a posteriori - on the left y-axis) plotted over iteration steps on the x-axis. Integrated information (denoted as φ on the right y-axis) is calculated for each pair of adjacent time steps, and its time-series is plotted together with the other time-series.
 
-<img src="https://github.com/nadinespy/BBVI_SGD/blob/main/3D_scatterplot_with_phi.png?raw=true" alt="3D plot"/>
+<img src="https://github.com/nadinespy/BBVI_SGD/blob/main/3d_variational_inf_with_phi.png?raw=true" alt="3D plot"/>
 
 ### References
 
