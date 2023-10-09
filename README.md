@@ -20,22 +20,11 @@ BBVI can be demonstrated using the following visualization: A simpler model (the
 
 We use a callback function (in [BBVI_SGD_PHI.py](https://github.com/nadinespy/BBVI_SGD/blob/main/BBVI_SGD_PHI.py)) to create Matplotlib figures of the true and approximative distribution in real-time.
 
-
-<style>
-  .centered {
-    text-align: center;
-  }
-</style>
-
-<div class="centered">
-  <img src="https://github.com/nadinespy/BBVI_SGD/blob/main/variation_inf.gif?raw=true" alt="Variational Inference" width="45%" />
-</div>
-
+<img src="https://github.com/nadinespy/BBVI_SGD/blob/main/variation_inf.gif?raw=true" alt="Variational Inference" width="45%" />
 
 The following figure shows the same BBVI process in single plots where approximative and true posterior distribution are shown for different iterations.
 
 <img src="https://github.com/nadinespy/BBVI_SGD/blob/main/2D_variational_target_distr.png?raw=true" alt="2D plot"/>
-
 
 ## Integrated information in BBVI with SGD in a 3D example
 
@@ -43,9 +32,7 @@ One example result of the dynamics of information integration is shown below whe
 
 In the lower plot, we see the trajectories of all three parameters (denoted as "MAPs" - maximum a posteriori - on the left y-axis) plotted over iteration steps on the x-axis. Integrated information (denoted as φ on the right y-axis) is calculated for each pair of adjacent time steps, and its time-series is plotted together with the other time-series.
 
-
 <img src="https://github.com/nadinespy/BBVI_SGD/blob/main/3D_scatterplot_with_phi.png?raw=true" alt="3D plot"/>
-
 
 ### References
 
@@ -58,8 +45,3 @@ Jordan, M. I., Ghahramani, Z., Jaakkola, T. S., and Saul, L. K. (1999). An intro
 Oizumi, M., Albantakis, L., and Tononi, G. (2014). From the phenomenology to the mechanisms of consciousness: integrated information theory 3.0. PLoS computational biology, 10(5):e1003588.
 
 Ranganath, R., Gerrish, S., & Blei, D. M. (2013). Black box variational inference. arXiv preprint arXiv:1401.0118.
-
-[Link to PDF](https://github.com/nadinespy/BBVI_SGD/raw/main/Marr_levels_applied.pdf)
-
-
-<iframe src="https://docs.google.com/viewer?url=https://github.com/nadinespy/BBVI_SGD/raw/main/Marr_levels_applied.pdf&embedded=true" width="800" height="600" frameborder="0"></iframe>
