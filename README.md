@@ -10,7 +10,8 @@ Many problems in different domains can be cast as the approximation of complicat
 
 A detailed overview in terms of Marr's three levels can be seen in the following graphic.
 
-<iframe src="https://github.com/nadinespy/BBVI_SGD/blob/main/Marr_levels_applied.pdf" width="800" height="600"></iframe>
+<iframe src="https://docs.google.com/viewer?url=https://github.com/nadinespy/BBVI_SGD/raw/main/Marr_levels_applied.pdf&embedded=true" width="800" height="600" frameborder="0"></iframe>
+
 
 [Link to PDF](https://github.com/nadinespy/BBVI_SGD/raw/main/Marr_levels_applied.pdf)
 
@@ -22,9 +23,15 @@ BBVI can be demonstrated using the following visualization: A simpler model (the
 We use a callback function (in [BBVI_SGD_PHI.py](https://github.com/nadinespy/BBVI_SGD/blob/main/BBVI_SGD_PHI.py)) to create Matplotlib figures of the true and approximative distribution in real-time.
 
 
-<center>
+<style>
+  .centered {
+    text-align: center;
+  }
+</style>
+
+<div class="centered">
   <img src="https://github.com/nadinespy/BBVI_SGD/blob/main/variation_inf.gif?raw=true" alt="Variational Inference" width="45%" />
-</center>
+</div>
 
 
 The following figure shows the same BBVI process in single plots where approximative and true posterior distribution are shown for different iterations.
