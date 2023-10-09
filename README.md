@@ -19,10 +19,11 @@ BBVI can be demonstrated using the following visualization: A simpler model (the
 
 We use a callback function (in [BBVI_SGD_PHI.py](https://github.com/nadinespy/BBVI_SGD/blob/main/BBVI_SGD_PHI.py)) to create Matplotlib figures of the true and approximative distribution in real-time.
 
-<html>
-<div style="text-align:center; margin-top:20px; margin-bottom:20px;">
+
+<center>
   <img src="https://github.com/nadinespy/BBVI_SGD/blob/main/variation_inf.gif?raw=true" alt="Variational Inference" width="45%" />
-</div>
+</center>
+
 
 The following figure shows the same BBVI process in single plots where approximative and true posterior distribution are shown for different iterations.
 
