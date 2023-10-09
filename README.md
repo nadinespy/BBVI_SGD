@@ -10,7 +10,7 @@ Many problems in different domains can be cast as the approximation of complicat
 
 A detailed overview in terms of Marr's three levels can be seen in the following graphic.
 
-<iframe src="https://github.com/nadinespy/BBVI_SGD/blob/main/Marr_levels_applied.pdf?raw=true" width="800" height="600"></iframe>
+<iframe src="https://github.com/nadinespy/BBVI_SGD/blob/main/Marr_levels_applied.pdf" width="800" height="600"></iframe>
 
 
 ## Black box variational inference with stochastic gradient descent in a 2D example
@@ -19,6 +19,7 @@ BBVI can be demonstrated using the following visualization: A simpler model (the
 
 We use a callback function (in [BBVI_SGD_PHI.py](https://github.com/nadinespy/BBVI_SGD/blob/main/BBVI_SGD_PHI.py)) to create Matplotlib figures of the true and approximative distribution in real-time.
 
+<html>
 <div style="text-align:center; margin-top:20px; margin-bottom:20px;">
   <img src="https://github.com/nadinespy/BBVI_SGD/blob/main/variation_inf.gif?raw=true" alt="Variational Inference" width="45%" />
 </div>
@@ -50,7 +51,5 @@ Oizumi, M., Albantakis, L., and Tononi, G. (2014). From the phenomenology to the
 Ranganath, R., Gerrish, S., & Blei, D. M. (2013). Black box variational inference. arXiv preprint arXiv:1401.0118.
 
 <img src="https://github.com/nadinespy/BBVI_SGD/blob/main/bayes.jpg?raw=true" alt="Bayes and consciousness" width="600 px" />
-
-<img src="https://github.com/nadinespy/BBVI_SGD/blob/main/Marr_levels_applied.pdf?raw=true" alt="Bayes and consciousness" width="600 px" />
 
 <img src="https://github.com/nadinespy/BBVI_SGD/blob/main/variation_inf.gif?raw=true" alt="Variational Inference"    width="400 px" />
