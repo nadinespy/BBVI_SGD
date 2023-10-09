@@ -12,6 +12,8 @@ A detailed overview in terms of Marr's three levels can be seen in the following
 
 <iframe src="https://github.com/nadinespy/BBVI_SGD/blob/main/Marr_levels_applied.pdf" width="800" height="600"></iframe>
 
+[Link to PDF](https://github.com/nadinespy/BBVI_SGD/raw/main/Marr_levels_applied.pdf)
+
 
 ## Black box variational inference with stochastic gradient descent in a 2D example
 
@@ -28,6 +30,7 @@ We use a callback function (in [BBVI_SGD_PHI.py](https://github.com/nadinespy/BB
 The following figure shows the same BBVI process in single plots where approximative and true posterior distribution are shown for different iterations.
 
 <img src="https://github.com/nadinespy/BBVI_SGD/blob/main/2D_variational_target_distr.png?raw=true" alt="2D plot"/>
+
 
 ## Integrated information in BBVI with SGD in a 3D example
 
