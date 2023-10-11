@@ -3,7 +3,7 @@
 <img src="https://github.com/nadinespy/BBVI_SGD/blob/main/bayes_theorem.png?raw=true" alt="Bayes and Perception" width="600 px" />
 
 ### The purpose of this repository 
-This repository showcases some plots including the plotting code from a project on integrated information in variational inference. The codebase is not complete, i.e., using this repository, results can not be reproduced, and the readme and all other material shown here are not optimized for understandability. Its main purpose is merely to **showcase several plots**, **including the plotting code**, from this project. The repository may be improved in the future in terms of understandability and reproducibility.
+This repository showcases code, including plotting, for implementing Black Box Variational Inference from scratch in a very general way, and calculating integrated information for each pair of iterations/time-points during inference. The codebase is not complete, i.e., using this repository, results can not be reproduced, and the readme and all other material shown here are not optimized for understandability. Its main purpose is merely to **showcase the code for implementing this project**, **including the plotting code**. The repository may be improved in the future in terms of understandability and reproducibility.
 
 ## Introduction to the project 
 Many problems in different domains can be cast as the approximation of complicated probability densities. *Variational inference* (VI, also known as approximate Bayesian inference) is a method from machine learning used for approximating such difficult-to-compute probability densities (Jordan et al., 1999). VI approaches have been extensively explored in neuroscience to investigate the brain’s capacity to operate in situations of uncertainty in a Bayes’ optimal way (i.e., close to what Bayesian models predict) (Clark, 2013). In this context, it has also been hypothesized that the brain is facing hard-to-calculate posterior densities equally by exploiting approximate solutions such as VI. 
@@ -18,7 +18,9 @@ A detailed overview in terms of Marr's three analyses levels (computational goal
 
 BBVI can be demonstrated using the following visualization: A simpler model (the Gaussian distribution) is used to approximate a more complex posterior distribution (the funnel-like distribution) in an optimization framework (i.e., with each iteration, the approximating distribution comes closer to the true posterior distribution). The full target distribution is approximated by estimating its mean and log variance parameters.
 
-We use a callback function (in [BBVI_SGD_PHI.py](https://github.com/nadinespy/BBVI_SGD/blob/main/BBVI_SGD_PHI.py)) to create Matplotlib figures of the true and approximative distribution in real-time.
+In the way BBVI is implemented here, the user has to provide only a log probability function as a function argument (since functions are first-class citizens in Python, using functions as arguments is a helpful pattern), which then gets embedded (in a “closure”) inside the Black Box Variational Inference “objective function”. This allows us to create an objective function which, when optimized, approximates the posterior distribution that was represented by the original log probability - and since we only require a log probability function for this, it’s possible to perform this approximation in a very general (“black box”) way.
+
+Moreover, we use a callback function (in [BBVI_SGD_PHI.py](https://github.com/nadinespy/BBVI_SGD/blob/main/BBVI_SGD_PHI.py)) to create Matplotlib figures of the true and approximative distribution in real-time.
 
 <img src="https://github.com/nadinespy/BBVI_SGD/blob/main/2d_variational_inf.gif?raw=true" alt="Variational Inference" width="45%" />
 
